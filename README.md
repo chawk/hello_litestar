@@ -1,2 +1,2 @@
 
-#My Litestar starter template
+*My Litestar starter template
