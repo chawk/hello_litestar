@@ -1,0 +1,17 @@
+<html>
+
+<head>
+<title>Litestar App</title>
+<link rel="stylesheet" href="/static/css/main.css" />
+</head>
+
+<body>
+    <h1>Hello Jinja! + {{ name }}</h1>
+    <h2>{{ data_object.title }}</h2>
+    <h3>{{ data_object.rating }}</h3>
+    <img src="{{ data_object.image }}" alt="{{ data_object.title}} movie poster" />
+    <iframe width="560" height="315" src="{{ data_object.trailer }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <script src="/static/js/main.js"></script>
+</body>
+
+</html>
